@@ -1,0 +1,37 @@
+[20-Apr-2025 17:04:42 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 96
+[20-Apr-2025 17:06:09 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:06:09 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:06:59 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:06:59 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:07:10 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:07:10 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:07:27 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:07:27 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:07:35 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:07:35 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:15:06 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:15:06 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:16:24 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:16:24 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:16:39 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:16:39 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:17:18 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:17:18 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:17:21 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:17:21 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:18:48 UTC] PHP Warning:  Undefined variable $args3 in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 102
+[20-Apr-2025 17:18:58 UTC] PHP Warning:  Undefined variable $args2 in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 90
+[20-Apr-2025 17:18:58 UTC] PHP Warning:  Undefined variable $args3 in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 91
+[20-Apr-2025 17:18:58 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 211
+[20-Apr-2025 17:18:58 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 211
+[20-Apr-2025 17:19:10 UTC] PHP Warning:  Undefined variable $args1 in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 86
+[20-Apr-2025 17:19:10 UTC] PHP Warning:  Undefined variable $args3 in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 88
+[20-Apr-2025 17:19:57 UTC] PHP Warning:  Undefined variable $current_lesson_id in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/themes/pengin-ai-theme/single-lesson.php on line 78
+[20-Apr-2025 17:23:36 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:23:36 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:25:42 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:25:42 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:26:06 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:26:06 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
+[20-Apr-2025 17:26:41 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 115
+[20-Apr-2025 17:26:41 UTC] PHP Warning:  Array to string conversion in /Users/keishiro/Local Sites/pengin-ai/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php on line 141
