@@ -146,7 +146,7 @@ get_header();
                             <?php
                               // 40文字以内に制限
                               $excerpt = get_the_excerpt();
-                              echo mb_substr($excerpt, 0, 50) . (mb_strlen($excerpt) > 40 ? '...' : '');
+                              echo mb_substr($excerpt, 0, 40) . (mb_strlen($excerpt) > 40 ? '...' : '');
                             ?>
                         </div>
                         <div class="prompt-card-footer">
@@ -234,7 +234,7 @@ get_header();
                             <?php
                               // 40文字以内に制限
                               $excerpt = get_the_excerpt();
-                              echo mb_substr($excerpt, 0, 50) . (mb_strlen($excerpt) > 50 ? '....' : '');
+                              echo mb_substr($excerpt, 0, 40) . (mb_strlen($excerpt) > 40 ? '...' : '');
                             ?>
                         </div>
                         <div class="prompt-card-footer">

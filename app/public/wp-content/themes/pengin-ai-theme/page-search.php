@@ -29,7 +29,7 @@ $all_tags = get_terms(array(
     <div class="container">
         <!-- 検索ヘッダー -->
         <div class="search-header">
-            <h1 class="search-title">レッスン検索</h1>
+            <h1 class="search-title">プロンプト検索</h1>
 
             <form action="<?php echo esc_url(get_permalink()); ?>" method="get" class="main-search-form">
                 <div class="search-input-container">
@@ -94,7 +94,7 @@ $all_tags = get_terms(array(
                         // 検索クエリの構築
                         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                         $args = array(
-                            'post_type' => 'lesson', // レッスンに変更
+                            'post_type' => 'lesson', // プロンプトに変更
                             'posts_per_page' => 12,
                             'paged' => $paged,
                         );
@@ -160,12 +160,12 @@ $all_tags = get_terms(array(
                             } else {
                                 echo '<h2 class="results-title">検索結果</h2>';
                             }
-                            echo '<p class="results-count">' . $total_results . '件のレッスンが見つかりました</p>';
+                            echo '<p class="results-count">' . $total_results . '件のプロンプトが見つかりました</p>';
                             echo '</div>';
                         } else {
                             // 検索条件がない場合は見出しのみ
                             echo '<div class="search-results-header">';
-                            echo '<h2 class="results-title">最新のレッスン</h2>';
+                            echo '<h2 class="results-title">最新のプロンプト</h2>';
                             echo '</div>';
                         }
                         ?>
