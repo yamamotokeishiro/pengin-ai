@@ -162,3 +162,67 @@
     });
   }
 })(jQuery);
+
+/**
+ * モバイルメニューの動作用JavaScript
+ */
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const menuContainer = document.querySelector(".menu-container");
+
+  if (menuToggle && menuContainer) {
+    menuToggle.addEventListener("click", function () {
+      menuContainer.classList.toggle("active");
+      const expanded =
+        menuToggle.getAttribute("aria-expanded") === "true" || false;
+      menuToggle.setAttribute("aria-expanded", !expanded);
+    });
+  }
+
+  // サブメニューの開閉（モバイル用）
+  if (window.innerWidth <= 992) {
+    const hasChildren = document.querySelectorAll(
+      ".menu-item-has-children > a"
+    );
+
+    hasChildren.forEach(function (item) {
+      const dropdownToggle = document.createElement("span");
+      dropdownToggle.className = "dropdown-toggle";
+      dropdownToggle.innerHTML = '<i class="fas fa-chevron-down"></i>';
+      item.appendChild(dropdownToggle);
+
+      dropdownToggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const parent = this.parentNode.parentNode;
+        const subMenu = parent.querySelector(".sub-menu");
+        subMenu.classList.toggle("active");
+        this.classList.toggle("toggled");
+      });
+    });
+  }
+
+  // ウィンドウのリサイズ時にメニューをリセット
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 992 && menuContainer) {
+      menuContainer.classList.remove("active");
+      if (menuToggle) {
+        menuToggle.setAttribute("aria-expanded", "false");
+      }
+
+      // サブメニューのリセット
+      const activeSubMenus = document.querySelectorAll(".sub-menu.active");
+      const toggledButtons = document.querySelectorAll(
+        ".dropdown-toggle.toggled"
+      );
+
+      activeSubMenus.forEach(function (menu) {
+        menu.classList.remove("active");
+      });
+
+      toggledButtons.forEach(function (button) {
+        button.classList.remove("toggled");
+      });
+    }
+  });
+});
